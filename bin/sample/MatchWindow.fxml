@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.TextFlow?>
+
+<?import javafx.scene.text.Text?>
+<GridPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="600.0" prefWidth="800.0">
+            <children>
+                <Button fx:id="pointPlusOne" layoutX="60.0" layoutY="170.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="+" />
+                <Button fx:id="pointMinusOne" layoutX="140.0" layoutY="170.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="-" />
+                <Button fx:id="pointPlusTwo" layoutX="560.0" layoutY="170.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="+" />
+                <Button fx:id="pointMinusTwo" layoutX="640.0" layoutY="170.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="-" />
+                <Button fx:id="winPlusOne" layoutX="60.0" layoutY="320.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="+" />
+                <Button fx:id="winMinusOne" layoutX="140.0" layoutY="320.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="-" />
+                <Button fx:id="winPlusTwo" layoutX="560.0" layoutY="320.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="+" />
+                <Button fx:id="winMinusTwo" layoutX="640.0" layoutY="320.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="-" />
+                <Button fx:id="finish" layoutX="300.0" layoutY="450.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="150.0" text="Finish" />
+                <Text layoutX="180.0" layoutY="50.0" fx:id="nameOne" text="NameOne"/>
+                <Text layoutX="500.0" layoutY="50.0" fx:id="nameTwo" text="NameTwo"/>
+                <Text layoutX="350.0" layoutY="200.0" fx:id="points" text="Points"/>
+                <Text layoutX="350.0" layoutY="350.0" fx:id="wins" text="Wins"/>
+                <Text layoutX="520.0" layoutY="200.0" fx:id="pointsTwo" text="1"/>
+                <Text layoutX="520.0" layoutY="350.0" fx:id="winsTwo" text="1"/>
+                <Text layoutX="200.0" layoutY="200.0" fx:id="pointsOne" text="1"/>
+                <Text layoutX="200.0" layoutY="350.0" fx:id="winsOne" text="1"/>
+            </children>
+        </Pane>
+    </children>
+</GridPane>

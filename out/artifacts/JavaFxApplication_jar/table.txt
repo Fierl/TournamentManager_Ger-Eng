@@ -1,0 +1,8 @@
+Schmaul_Schmiam_Fred_Detler		8		80
+Si_Si_Fliegen		3		30
+Liss_Tyler_Oschlo_Lo		2		20
+Hans_Gans_Franz_Dumbo		2		10
+Sepp_Seppinsen		0		0
+Sick_Simon_Ralliger_Robert		0		0
+Hans_Dampf_Fred_Feurstein		0		0
+Dumbo_Derklin_Hans_Peter		0		0
