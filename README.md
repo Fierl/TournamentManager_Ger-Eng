@@ -1,15 +1,15 @@
 # TournamentManager_Ger-Eng
 
 This is a tournament manager for the card game 'Watten'. It is designed for three rounds, includes a tableview and is able to save.
-Dies ist eine Turnier-Manager für das Kartenspiel 'Watten'. Es ist für drei Runden ausgelegt, enthält eine Tabellenansicht und es ist möglich zu speichern.
+<br/>Dies ist eine Turnier-Manager für das Kartenspiel 'Watten'. Es ist für drei Runden ausgelegt, enthält eine Tabellenansicht und es ist möglich zu speichern.
 
-Requierments/Voraussetzungen:
-Java JRE, Version 8 Update 231 
+<br/>Requierments/Voraussetzungen:
+<br/>Java JRE, Version 8 Update 231 
 
-Instruction:
-The name of the team has to be written into the textfield and is saved by pressing the 'Add'-Button. When every team is added, just press the 'Start'-Button.
-Attention: The number of teams have to be even.
-To change through the different games and table you can use the bottom elements.
+<br/>Instruction:
+<br/>The name of the team has to be written into the textfield and is saved by pressing the 'Add'-Button. When every team is added, just press the 'Start'-Button.
+<br/>Attention: The number of teams have to be even.
+<br/>To change through the different games and table you can use the bottom elements.
 The input of wins and points is done through writing the input into the textfield of the specific team in this synstax: #Wins0#Points.
 Example: Team 1 has 2 wins and 23 point, so the input has to be '2023'.
 Clicking 'save' generates a subfolder, in which the text-filed are generated.
